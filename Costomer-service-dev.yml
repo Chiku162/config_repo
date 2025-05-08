@@ -1,0 +1,15 @@
+global:
+   messaage: welcome to costomer service dev enviroment
+server:
+    port: 8082
+message: hello from Dev!
+spring:
+    datasource:
+       url: jdbc:mysql://localhost:3306/cust_db
+       username: root
+       password: root
+    jpa:
+       hibernate:
+         ddl-auto: update
+       show-sql: true
+  
