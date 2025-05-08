@@ -1,0 +1,10 @@
+spring:
+   application:
+      name: costomer-service
+    datasource:
+        url: jdbc:mysql://localhost/3306/costomer_master
+        driverClassName: com.mysql.cj.jdbc.Driver
+    jpa:
+      hibernate:
+        ddl-auto: none
+      show-sql: false
